@@ -940,6 +940,11 @@ body.menu-open .nav__toggle span::after{transform:translate(-50%,0) rotate(-45de
   display:flex;justify-content:center;padding:8px var(--gutter);
   background:var(--mist);border-block:1px solid var(--line);
 }
+/* home: pill sits between two content sections — blend it into the page,
+   no grey strip, no divider lines */
+.align + .assessbar{
+  background:var(--card);border-block-color:transparent;padding-block:24px;
+}
 .assessbar__pill{
   display:inline-flex;align-items:center;gap:14px;
   background:var(--ink);color:#fff;border-radius:100px;
